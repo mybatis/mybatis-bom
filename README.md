@@ -7,7 +7,7 @@ MYBATIS Bom
 
 ![mybatis-bom](https://mybatis.org/images/mybatis-logo.png)
 
-MyBatis-Bom is the MyBatis Bill of Materials houses all the mybatis modules that are compatible for ease of use.
+MyBatis-Bom is the MyBatis Bill of Materials that houses all the mybatis modules that are compatible for ease of use.
 
 # Usage
 
