@@ -68,7 +68,7 @@
             <dependency>
                 <groupId>org.mybatis</groupId>
                 <artifactId>base-bundle-descriptor</artifactId>
-                <version>9</version>
+                <version>10</version>
             </dependency>
 
             <!-- Caches -->
