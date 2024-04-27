@@ -174,13 +174,6 @@
         <version>3.5.16</version>
       </dependency>
 
-      <!-- Samples -->
-      <dependency>
-        <groupId>org.mybatis</groupId>
-        <artifactId>jpetstore</artifactId>
-        <version>6.1.0</version>
-      </dependency>
-
       <!-- Scala -->
       <dependency>
         <groupId>org.mybatis.scala</groupId>
