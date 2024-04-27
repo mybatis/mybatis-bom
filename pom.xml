@@ -274,4 +274,111 @@
       </dependency>
     </dependencies>
   </dependencyManagement>
+
+  <dependencies>
+    <!-- Mybatis -->
+    <dependency>
+      <groupId>org.mybatis</groupId>
+      <artifactId>mybatis</artifactId>
+    </dependency>
+
+    <!-- Caches -->
+    <dependency>
+      <groupId>org.mybatis.caches</groupId>
+      <artifactId>mybatis-caffeine</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.mybatis.caches</groupId>
+      <artifactId>mybatis-ehcache</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.mybatis.caches</groupId>
+      <artifactId>mybatis-hazelcast</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.mybatis.caches</groupId>
+      <artifactId>mybatis-ignite</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.mybatis.caches</groupId>
+      <artifactId>mybatis-memcached</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.mybatis.caches</groupId>
+      <artifactId>mybatis-redis</artifactId>
+    </dependency>
+
+    <!-- Extensions -->
+    <dependency>
+      <groupId>org.mybatis</groupId>
+      <artifactId>mybatis-cdi</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.mybatis</groupId>
+      <artifactId>mybatis-guice</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.mybatis</groupId>
+      <artifactId>mybatis-spring</artifactId>
+    </dependency>
+
+    <!-- Generators -->
+    <dependency>
+      <groupId>org.mybatis.generator</groupId>
+      <artifactId>mybatis-generator-core</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.mybatis.dynamic-sql</groupId>
+      <artifactId>mybatis-dynamic-sql</artifactId>
+    </dependency>
+
+    <!-- ibatis (legacy support) -->
+    <dependency>
+      <groupId>org.mybatis</groupId>
+      <artifactId>mybatis2</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.mybatis</groupId>
+      <artifactId>mybatis-2-spring</artifactId>
+    </dependency>
+
+    <!-- Migrations -->
+    <dependency>
+      <groupId>org.mybatis</groupId>
+      <artifactId>mybatis-migrations</artifactId>
+    </dependency>
+
+    <!-- Scala -->
+    <dependency>
+      <groupId>org.mybatis.scala</groupId>
+      <artifactId>mybatis-scala-core_2.13</artifactId>
+    </dependency>
+
+    <!-- Scripting -->
+    <dependency>
+      <groupId>org.mybatis.scripting</groupId>
+      <artifactId>mybatis-freemarker</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.mybatis.scripting</groupId>
+      <artifactId>mybatis-thymeleaf</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.mybatis.scripting</groupId>
+      <artifactId>mybatis-velocity</artifactId>
+    </dependency>
+
+    <!-- Spring Boot -->
+    <dependency>
+      <groupId>org.mybatis.spring.boot</groupId>
+      <artifactId>mybatis-spring-boot-starter</artifactId>
+    </dependency>
+
+    <!-- Addons -->
+    <dependency>
+      <groupId>org.mybatis</groupId>
+      <artifactId>mybatis-typehandlers-threeten-extra</artifactId>
+    </dependency>
+  </dependencies>
+
 </project>
