@@ -76,31 +76,67 @@
         <groupId>org.mybatis.caches</groupId>
         <artifactId>mybatis-caffeine</artifactId>
         <version>1.0.0</version>
+        <exclusions>
+            <exclusion>
+                <groupId>*</groupId>
+                <artifactId>*</artifactId>
+            </exclusion>
+        </exclusions>
       </dependency>
       <dependency>
         <groupId>org.mybatis.caches</groupId>
         <artifactId>mybatis-ehcache</artifactId>
         <version>1.2.3</version>
+        <exclusions>
+            <exclusion>
+                <groupId>*</groupId>
+                <artifactId>*</artifactId>
+            </exclusion>
+        </exclusions>
       </dependency>
       <dependency>
         <groupId>org.mybatis.caches</groupId>
         <artifactId>mybatis-hazelcast</artifactId>
         <version>1.3.1</version>
+        <exclusions>
+            <exclusion>
+                <groupId>*</groupId>
+                <artifactId>*</artifactId>
+            </exclusion>
+        </exclusions>
       </dependency>
       <dependency>
         <groupId>org.mybatis.caches</groupId>
         <artifactId>mybatis-ignite</artifactId>
         <version>1.1.1</version>
+        <exclusions>
+            <exclusion>
+                <groupId>*</groupId>
+                <artifactId>*</artifactId>
+            </exclusion>
+        </exclusions>
       </dependency>
       <dependency>
         <groupId>org.mybatis.caches</groupId>
         <artifactId>mybatis-memcached</artifactId>
         <version>1.1.1</version>
+        <exclusions>
+            <exclusion>
+                <groupId>*</groupId>
+                <artifactId>*</artifactId>
+            </exclusion>
+        </exclusions>
       </dependency>
       <dependency>
         <groupId>org.mybatis.caches</groupId>
         <artifactId>mybatis-redis</artifactId>
         <version>1.0.0-beta2</version>
+        <exclusions>
+            <exclusion>
+                <groupId>*</groupId>
+                <artifactId>*</artifactId>
+            </exclusion>
+        </exclusions>
       </dependency>
 
       <!-- Extensions -->
@@ -108,11 +144,23 @@
         <groupId>org.mybatis</groupId>
         <artifactId>mybatis-cdi</artifactId>
         <version>1.1.4</version>
+        <exclusions>
+            <exclusion>
+                <groupId>*</groupId>
+                <artifactId>*</artifactId>
+            </exclusion>
+        </exclusions>
       </dependency>
       <dependency>
         <groupId>org.mybatis</groupId>
         <artifactId>mybatis-guice</artifactId>
         <version>3.18</version>
+        <exclusions>
+            <exclusion>
+                <groupId>*</groupId>
+                <artifactId>*</artifactId>
+            </exclusion>
+        </exclusions>
       </dependency>
       <dependency>
         <groupId>org.mybatis</groupId>
@@ -142,6 +190,12 @@
         <groupId>org.mybatis</groupId>
         <artifactId>mybatis-2-spring</artifactId>
         <version>1.2.0</version>
+        <exclusions>
+            <exclusion>
+                <groupId>*</groupId>
+                <artifactId>*</artifactId>
+            </exclusion>
+        </exclusions>
       </dependency>
 
       <!-- Migrations -->
@@ -156,6 +210,12 @@
         <groupId>org.mybatis.scala</groupId>
         <artifactId>mybatis-scala-core_2.13</artifactId>
         <version>1.3.1</version>
+        <exclusions>
+            <exclusion>
+                <groupId>*</groupId>
+                <artifactId>*</artifactId>
+            </exclusion>
+        </exclusions>
       </dependency>
 
       <!-- Scripting -->
@@ -163,16 +223,34 @@
         <groupId>org.mybatis.scripting</groupId>
         <artifactId>mybatis-freemarker</artifactId>
         <version>1.2.4</version>
+        <exclusions>
+            <exclusion>
+                <groupId>*</groupId>
+                <artifactId>*</artifactId>
+            </exclusion>
+        </exclusions>
       </dependency>
       <dependency>
         <groupId>org.mybatis.scripting</groupId>
         <artifactId>mybatis-thymeleaf</artifactId>
         <version>1.0.4</version>
+        <exclusions>
+            <exclusion>
+                <groupId>*</groupId>
+                <artifactId>*</artifactId>
+            </exclusion>
+        </exclusions>
       </dependency>
       <dependency>
         <groupId>org.mybatis.scripting</groupId>
         <artifactId>mybatis-velocity</artifactId>
         <version>2.1.2</version>
+        <exclusions>
+            <exclusion>
+                <groupId>*</groupId>
+                <artifactId>*</artifactId>
+            </exclusion>
+        </exclusions>
       </dependency>
 
       <!-- Spring Boot -->
@@ -180,6 +258,12 @@
         <groupId>org.mybatis.spring.boot</groupId>
         <artifactId>mybatis-spring-boot-starter</artifactId>
         <version>2.3.2</version>
+        <exclusions>
+            <exclusion>
+                <groupId>*</groupId>
+                <artifactId>*</artifactId>
+            </exclusion>
+        </exclusions>
       </dependency>
 
       <!-- Addons -->
