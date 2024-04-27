@@ -28,7 +28,7 @@
   </parent>
 
   <artifactId>mybatis-bom</artifactId>
-  <version>3.5.10-SNAPSHOT</version>
+  <version>3.5.16-SNAPSHOT</version>
   <packaging>pom</packaging>
 
   <name>mybatis-bom</name>
