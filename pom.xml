@@ -64,13 +64,6 @@
 
   <dependencyManagement>
     <dependencies>
-      <!-- Bundle Descriptor -->
-      <dependency>
-        <groupId>org.mybatis</groupId>
-        <artifactId>base-bundle-descriptor</artifactId>
-        <version>11</version>
-      </dependency>
-
       <!-- Caches -->
       <dependency>
         <groupId>org.mybatis.caches</groupId>
