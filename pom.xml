@@ -132,7 +132,7 @@
         <version>1.5.0</version>
       </dependency>
 
-      <!-- ibatis -->
+      <!-- ibatis (legacy support) -->
       <dependency>
         <groupId>org.mybatis</groupId>
         <artifactId>mybatis2</artifactId>
