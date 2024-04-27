@@ -70,13 +70,6 @@
         <artifactId>mybatis-caffeine</artifactId>
         <version>1.0.0</version>
       </dependency>
-      <!-- Not released yet
-        <dependency>
-          <groupId>org.mybatis.caches</groupId>
-          <artifactId>mybatis-couchbase</artifactId>
-          <version>1.0.0-SNAPSHOT</version>
-        </dependency>
-      -->
       <dependency>
         <groupId>org.mybatis.caches</groupId>
         <artifactId>mybatis-ehcache</artifactId>
@@ -102,15 +95,6 @@
         <artifactId>mybatis-redis</artifactId>
         <version>1.0.0-beta2</version>
       </dependency>
-
-      <!-- Converters -->
-      <!-- Not released yet
-        <groupId>
-          <groupId>org.mybatis</groupId>
-          <artifactId>ibatis2mybatis</artifactId>
-          <version>1.0.0-SNAPSHOT</version>
-        </groupId>
-      -->
 
       <!-- Extensions -->
       <dependency>
@@ -198,15 +182,7 @@
         <version>2.3.2</version>
       </dependency>
 
-      <!-- Spring Native -->
-      <!-- Not released yet
-        <dependency>
-          <groupId>org.mybatis.spring.native</groupId>
-          <artifactId>mybatis-spring-native-core</artifactId>
-          <version>0.1.0-SNAPSHOT</version>
-        </dependency>
-      -->
-
+      <!-- Addons -->
       <dependency>
         <groupId>org.mybatis</groupId>
         <artifactId>mybatis-typehandlers-threeten-extra</artifactId>
