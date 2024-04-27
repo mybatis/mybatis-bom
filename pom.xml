@@ -64,6 +64,13 @@
 
   <dependencyManagement>
     <dependencies>
+      <!-- Mybatis -->
+      <dependency>
+        <groupId>org.mybatis</groupId>
+        <artifactId>mybatis</artifactId>
+        <version>3.5.16</version>
+      </dependency>
+
       <!-- Caches -->
       <dependency>
         <groupId>org.mybatis.caches</groupId>
@@ -142,13 +149,6 @@
         <groupId>org.mybatis</groupId>
         <artifactId>mybatis-migrations</artifactId>
         <version>3.3.11</version>
-      </dependency>
-
-      <!-- Mybatis -->
-      <dependency>
-        <groupId>org.mybatis</groupId>
-        <artifactId>mybatis</artifactId>
-        <version>3.5.16</version>
       </dependency>
 
       <!-- Scala -->
