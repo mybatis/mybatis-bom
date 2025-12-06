@@ -154,7 +154,7 @@
       <dependency>
         <groupId>org.mybatis</groupId>
         <artifactId>mybatis-guice</artifactId>
-        <version>3.18</version>
+        <version>4.0.0</version>
         <exclusions>
           <exclusion>
             <groupId>*</groupId>
