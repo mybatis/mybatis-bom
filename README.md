@@ -3,6 +3,7 @@ MYBATIS Bom
 [![build](https://github.com/mybatis/mybatis-bom/workflows/Java%20CI/badge.svg)](https://github.com/mybatis/mybatis-bom/actions?query=workflow%3A%22Java+CI%22)
 [![Maven central](https://maven-badges.herokuapp.com/maven-central/org.mybatis/mybatis-bom/badge.svg)](https://maven-badges.herokuapp.com/maven-central/org.mybatis/mybatis-bom)
 [![Sonatype Nexus (Snapshots)](https://img.shields.io/nexus/s/https/oss.sonatype.org/org.mybatis/mybatis-bom.svg)](https://oss.sonatype.org/content/repositories/snapshots/org/mybatis/mybatis-bom/)
+[![Docs](https://img.shields.io/badge/docs-mybatis.org-blue?logo=github)](https://mybatis.org/mybatis-bom/)
 [![License](https://img.shields.io/:license-apache-brightgreen.svg)](https://www.apache.org/licenses/LICENSE-2.0.html)
 
 ![mybatis-bom](https://mybatis.org/images/mybatis-logo.png)
